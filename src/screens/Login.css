@@ -1,0 +1,95 @@
+.login {
+    position: relative;
+    height: 100%;
+    background-image: url('https://www.reliancedigital.in/wp-content/uploads/2019/02/netflix_movies_cover.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login__logo {
+    width: 150px;
+    left: 0;
+    position: fixed;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.login__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.login__gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8)
+    );
+}
+
+.login__body {
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.login__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.login__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.login__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.login__input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.login__getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.login__input {
+    margin-top: 20px;
+}
